@@ -1,47 +1,46 @@
-# Technical Plan
+# 技术方案
 
-## Current State
+## 当前状态
 
-Describe the current implementation and behavior.
+描述当前实现方式和现有行为。
 
-## Target State
+## 目标状态
 
-Describe the expected implementation and behavior after the change.
+描述改造后的实现方式和预期行为。
 
-## Impact Scope
+## 影响范围
 
-- Modules:
-- APIs:
-- Data:
-- Config:
-- Jobs:
-- Monitoring:
+- 模块：
+- API：
+- 数据：
+- 配置：
+- 任务：
+- 监控：
 
-## Implementation Steps
+## 实现步骤
 
 1. 
 
-## Test Strategy
+## 测试策略
 
-- Unit tests:
-- Integration tests:
-- Manual checks:
-- Regression checks:
+- 单元测试：
+- 集成测试：
+- 人工检查：
+- 回归检查：
 
-## Verification Plan
+## 验收方案
 
-- Positive cases:
-- Negative cases:
-- Log checks:
-- Metric checks:
+- 正向用例：
+- 反向用例：
+- 日志检查：
+- 指标检查：
 
-## Rollback Plan
+## 回滚方案
 
-Describe how to rollback code, config, and data changes.
+描述代码、配置、数据等变更的回滚方式。
 
-## Confirmation Record
+## 确认记录
 
-- Confirmed by:
-- Confirmed at:
-- Link:
-
+- 确认人：
+- 确认时间：
+- 确认链接：

@@ -1,24 +1,23 @@
-# CR Comments
+# CR 评论
 
-## Summary
+## 概要
 
-Track human and Agent review feedback.
+记录人工和 Agent 的评审反馈。
 
-## Open Comments
+## 未解决评论
 
-- [ ] Link:
-  - Comment:
-  - Owner:
-  - Resolution plan:
+- [ ] 链接：
+  - 评论内容：
+  - 负责人：
+  - 解决方案：
 
-## Resolved Comments
+## 已解决评论
 
-- [x] Link:
-  - Comment:
-  - Resolution:
-  - Commit:
+- [x] 链接：
+  - 评论内容：
+  - 处理结果：
+  - 相关提交：
 
-## Reopened Decisions
+## 重新打开的决策
 
 - 
-

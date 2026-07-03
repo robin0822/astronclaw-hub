@@ -1,32 +1,31 @@
-# Intake
+# 需求入口
 
-## Requirement
+## 需求信息
 
-- ID:
-- Title:
-- Source:
-- Owner:
-- Created at:
+- 需求 ID：
+- 需求标题：
+- 需求来源：
+- 负责人：
+- 创建时间：
 
-## Source Links
+## 来源链接
 
 - Aone:
 - PRD:
-- Design:
-- Discussion:
+- 设计稿：
+- 讨论记录：
 
-## Initial Summary
+## 初始摘要
 
-Describe what the requirement asks for in plain language.
+用自然语言描述该需求要解决什么问题、达成什么业务目标。
 
-## Existing Context
+## 已有上下文
 
-- Related business knowledge:
-- Related modules:
-- Related historical requirements:
-- Known constraints:
+- 相关业务知识：
+- 相关模块：
+- 相关历史需求：
+- 已知约束：
 
-## Open Questions
+## 待确认问题
 
-- [ ] Question:
-
+- [ ] 问题：

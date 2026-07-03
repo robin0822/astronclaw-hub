@@ -1,40 +1,39 @@
-# Closeout
+# 结项沉淀
 
-## Requirement Result
+## 需求结果
 
-- Status:
-- Released at:
-- Owner:
+- 状态：
+- 发布时间：
+- 负责人：
 
-## Delivery Summary
+## 交付摘要
 
-Summarize what changed and why.
+总结本次改动内容和改动原因。
 
-## Verification Summary
+## 验收摘要
 
-Summarize final verification evidence.
+总结最终验收证据。
 
-## Stable Knowledge Candidates
+## 稳定知识候选
 
-Items that should be promoted to `docs/wiki/` or `docs/codemap/` after review:
-
-- [ ] 
-
-## Workflow Improvement Candidates
-
-Items that should improve Agent skills, prompts, checks, or templates:
+经过确认后，可沉淀到 `docs/wiki/` 或 `docs/codemap/` 的内容：
 
 - [ ] 
 
-## Archive-Only Notes
+## 流程改进候选
 
-Temporary details that should not enter long-term knowledge:
+可用于改进 Agent skill、提示词、检查规则或模板的内容：
+
+- [ ] 
+
+## 仅归档记录
+
+不应进入长期知识库的临时细节：
 
 - 
 
-## Closeout Approval
+## 结项确认
 
-- Approved by:
-- Approved at:
-- Link:
-
+- 确认人：
+- 确认时间：
+- 确认链接：

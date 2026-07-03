@@ -1,13 +1,12 @@
-# Code Map
+# 代码地图
 
-This directory stores stable code navigation notes for humans and Agents.
+该目录用于存放稳定的代码导航说明，帮助人和 Agent 快速理解系统。
 
-Recommended content:
+推荐记录：
 
-- Module responsibilities.
-- Important entry points.
-- Data flow and integration flow.
-- Configuration ownership.
-- Testing strategy by module.
-- Known risk areas and invariants.
-
+- 模块职责。
+- 重要入口。
+- 数据流和集成链路。
+- 配置归属。
+- 各模块测试策略。
+- 已知风险区域和关键不变量。

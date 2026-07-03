@@ -1,42 +1,41 @@
-# Verification
+# 验收验证
 
-## Environment
+## 环境信息
 
-- Environment:
-- Branch:
-- Build:
-- Deployed at:
+- 环境：
+- 分支：
+- 构建：
+- 部署时间：
 
-## Evidence
+## 验收证据
 
-### Positive Cases
+### 正向用例
 
-- [ ] Case:
-  - Command / action:
-  - Result:
-  - Evidence link:
+- [ ] 用例：
+  - 命令 / 操作：
+  - 结果：
+  - 证据链接：
 
-### Negative Cases
+### 反向用例
 
-- [ ] Case:
-  - Command / action:
-  - Result:
-  - Evidence link:
+- [ ] 用例：
+  - 命令 / 操作：
+  - 结果：
+  - 证据链接：
 
-### Regression Cases
+### 回归用例
 
-- [ ] Case:
-  - Command / action:
-  - Result:
-  - Evidence link:
+- [ ] 用例：
+  - 命令 / 操作：
+  - 结果：
+  - 证据链接：
 
-## Logs / Metrics
+## 日志与指标
 
 - SLS:
-- Monitoring:
-- Alerts:
+- 监控：
+- 告警：
 
-## Verification Conclusion
+## 验收结论
 
-State whether the requirement is verified and list remaining risks.
-
+说明需求是否已通过验收，并列出剩余风险。

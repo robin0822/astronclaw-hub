@@ -1,9 +1,8 @@
-# Agent Templates
+# Agent 模板
 
-Copy these templates into `.agent/memory/active/<requirement-id>/` when starting a
-new requirement.
+开始一个新需求时，将这些模板复制到 `.agent/memory/active/<需求ID>/`。
 
-Suggested order:
+建议使用顺序：
 
 1. `intake.template.md`
 2. `requirements.template.md`
@@ -12,4 +11,3 @@ Suggested order:
 5. `verification.template.md`
 6. `cr-comments.template.md`
 7. `closeout.template.md`
-

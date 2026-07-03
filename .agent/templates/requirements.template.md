@@ -1,36 +1,35 @@
-# Requirements
+# 需求澄清
 
-## Goal
+## 目标
 
-Describe the expected business outcome.
+描述该需求期望达成的业务结果。
 
-## In Scope
-
-- 
-
-## Out of Scope
+## 本次范围
 
 - 
 
-## User / Business Rules
+## 非本次范围
 
 - 
 
-## Acceptance Criteria
+## 用户与业务规则
+
+- 
+
+## 验收标准
 
 - [ ] 
 
-## Risks
+## 风险
 
 - 
 
-## Pending Confirmations
+## 待确认事项
 
 - [ ] 
 
-## Confirmation Record
+## 确认记录
 
-- Confirmed by:
-- Confirmed at:
-- Link:
-
+- 确认人：
+- 确认时间：
+- 确认链接：

@@ -1,9 +1,9 @@
-# Agent Project Memory
+# Agent 项目记忆
 
-Project memory records the delivery process for each requirement.
+项目记忆用于记录每个需求的完整交付过程。
 
-Use `active/` for in-progress requirements and `archive/` for closed requirements.
-Each requirement should have its own folder, for example:
+`active/` 存放进行中的需求，`archive/` 存放已结项的需求。
+每个需求都应有独立目录，例如：
 
 ```text
 .agent/memory/active/AONE-12345/
@@ -16,7 +16,5 @@ Each requirement should have its own folder, for example:
   closeout.md
 ```
 
-Project memory is a temporary fact layer. Do not directly promote all process
-notes into `docs/wiki/`. At closeout, extract only stable and reusable knowledge
-into `docs/wiki/` or `docs/codemap/` after review.
-
+项目记忆是临时事实层。不要把所有过程记录直接升级到 `docs/wiki/`。
+结项时，只将经过确认的稳定、可复用知识沉淀到 `docs/wiki/` 或 `docs/codemap/`。

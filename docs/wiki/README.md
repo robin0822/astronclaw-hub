@@ -1,17 +1,15 @@
-# Long-Term Wiki
+# 长期知识库
 
-This directory stores stable, reusable business knowledge.
+该目录用于存放稳定、可复用的业务知识。
 
-Only add knowledge here after a requirement is closed and the conclusion has been
-reviewed. Temporary assumptions, debugging notes, one-off implementation details,
-and unresolved decisions should stay in `.agent/memory/active/` or
-`.agent/memory/archive/`.
+只有在需求结项并经过确认后，才应把知识沉淀到这里。临时判断、调试记录、
+一次性实现细节和未决事项，应保留在 `.agent/memory/active/` 或
+`.agent/memory/archive/` 中。
 
-Recommended content:
+推荐记录：
 
-- Business rules and domain concepts.
-- System boundaries and integration contracts.
-- Reusable acceptance standards.
-- Stable troubleshooting and operation knowledge.
-- Decisions that affect future requirements.
-
+- 业务规则和领域概念。
+- 系统边界和集成契约。
+- 可复用的验收标准。
+- 稳定的排障和运维经验。
+- 会影响后续需求的技术或业务决策。

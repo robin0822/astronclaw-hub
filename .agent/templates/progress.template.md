@@ -1,31 +1,30 @@
-# Progress
+# 执行进度
 
-## Status
+## 当前状态
 
-- Current stage:
-- Current owner:
-- Last updated:
+- 当前阶段：
+- 当前负责人：
+- 最后更新时间：
 
-## Timeline
+## 时间线
 
 - 
 
-## Completed
+## 已完成
 
 - [ ] 
 
-## In Progress
+## 进行中
 
 - [ ] 
 
-## Blocked
+## 阻塞项
 
 - [ ] 
 
-## Important Links
+## 重要链接
 
-- Branch:
-- Commit:
-- Pull request / CR:
-- Deployment:
-
+- 分支：
+- 提交：
+- Pull Request / CR：
+- 部署：
