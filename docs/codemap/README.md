@@ -10,3 +10,9 @@
 - 配置归属。
 - 各模块测试策略。
 - 已知风险区域和关键不变量。
+
+## 当前代码地图条目
+
+- [现有平台路由地图](./existing-platform-map.md)
+- [智能体龙虾模块实现地图](./lobster-module-map.md)
+- [智能体龙虾数据模型](./lobster-data-model.md)
