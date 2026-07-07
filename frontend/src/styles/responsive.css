@@ -1,0 +1,94 @@
+@media (max-width: 1360px) {
+  .three-cols,
+  .triple-hero,
+  .feature-grid,
+  .dashboard-grid,
+  .five-cols,
+  .six-cols,
+  .four-cols,
+  .arch-blocks {
+    grid-template-columns: repeat(2, minmax(0, 1fr));
+  }
+  .perm-items {
+    grid-template-columns: repeat(2, 1fr);
+  }
+}
+
+@media (max-width: 960px) {
+  .login-page {
+    padding: 18px;
+  }
+  .login-shell {
+    grid-template-columns: 1fr;
+  }
+  .login-copy {
+    min-height: auto;
+    padding: 28px;
+  }
+  .login-copy-main {
+    gap: 28px;
+  }
+  .login-copy h1 {
+    font-size: 34px;
+  }
+  .login-panel {
+    padding: 32px 28px;
+  }
+  .login-signal-grid {
+    grid-template-columns: 1fr;
+    margin-top: 28px;
+  }
+  .sidebar {
+    position: fixed;
+    left: -280px;
+    z-index: 40;
+    transition: left 0.2s ease;
+  }
+  .sidebar.open {
+    left: 0;
+  }
+  .mobile-menu {
+    display: inline-block;
+  }
+  .pages {
+    padding: 18px;
+  }
+  .topbar {
+    padding: 0 18px;
+  }
+  .page-head {
+    flex-direction: column;
+  }
+  .two-cols,
+  .three-cols,
+  .four-cols,
+  .five-cols,
+  .six-cols,
+  .triple-hero,
+  .feature-grid,
+  .dashboard-grid,
+  .selector-list,
+  .arch-blocks,
+  .perm-items {
+    grid-template-columns: 1fr;
+  }
+  .split-layout {
+    flex-direction: column;
+  }
+}
+
+@media (max-width: 640px) {
+  .login-page {
+    padding: 12px;
+  }
+  .login-copy,
+  .login-panel {
+    border-radius: 14px;
+  }
+  .login-copy h1 {
+    font-size: 30px;
+  }
+  .topbar-right {
+    gap: 8px;
+  }
+}

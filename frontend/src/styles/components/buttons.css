@@ -1,0 +1,127 @@
+﻿/* ---------- buttons ---------- */
+.primary-btn,
+.ghost-btn,
+.danger-btn {
+  padding: 11px 18px;
+  font-weight: 600;
+  border-radius: 12px;
+  transition: 0.18s ease;
+}
+
+.primary-btn {
+  color: #fff;
+  background: linear-gradient(135deg, #246bff 0%, #4d92ff 100%);
+  box-shadow: 0 12px 24px rgba(36, 107, 255, 0.24);
+}
+
+.primary-btn:hover {
+  transform: translateY(-1px);
+}
+
+.ghost-btn {
+  color: #334155;
+  background: rgba(255, 255, 255, 0.92);
+  border: 1px solid var(--line);
+}
+
+.ghost-btn:hover {
+  border-color: rgba(36, 107, 255, 0.25);
+  color: var(--primary);
+}
+
+.danger-btn {
+  color: #fff;
+  background: linear-gradient(135deg, #f05252 0%, #ff7676 100%);
+}
+
+.icon-btn {
+  width: 40px;
+  height: 40px;
+  display: grid;
+  place-items: center;
+  border-radius: 999px;
+  border: 1px solid var(--line);
+  background: color-mix(in srgb, var(--panel) 92%, transparent);
+  color: var(--text);
+  box-shadow: var(--shadow);
+  transition: 0.18s ease;
+}
+
+.icon-btn:hover {
+  color: var(--primary);
+  border-color: color-mix(in srgb, var(--primary) 34%, var(--line));
+  transform: translateY(-1px);
+}
+
+.notif-btn {
+  position: relative;
+}
+
+.notif-btn .badge {
+  position: absolute;
+  top: -4px;
+  right: -4px;
+  background: var(--danger);
+  color: #fff;
+  font-size: 11px;
+  font-weight: 700;
+  padding: 2px 6px;
+  border-radius: 10px;
+  min-width: 18px;
+  text-align: center;
+}
+
+.notif-item {
+  padding: 12px 14px;
+  border: 1px solid var(--line);
+  border-radius: 10px;
+  margin-bottom: 10px;
+  display: flex;
+  align-items: center;
+  gap: 12px;
+}
+
+.notif-item > div:first-child {
+  flex: 1;
+  display: flex;
+  align-items: center;
+  gap: 10px;
+  flex-wrap: wrap;
+}
+
+.small {
+  padding: 8px 13px;
+  font-size: 13px;
+}
+
+.text-btn {
+  color: var(--primary);
+  font-weight: 600;
+  padding: 0;
+}
+
+.text-btn.danger-text {
+  color: var(--danger);
+}
+
+.skill-chip {
+  padding: 7px 13px;
+  border-radius: 999px;
+  border: 1px solid var(--line);
+  background: #f7f9fd;
+  color: var(--muted);
+  font-size: 13px;
+  transition: 0.15s ease;
+}
+
+.skill-chip:hover {
+  border-color: rgba(36, 107, 255, 0.35);
+  color: var(--primary);
+}
+
+.skill-chip.on {
+  background: var(--primary-soft);
+  color: var(--primary);
+  border-color: rgba(36, 107, 255, 0.3);
+  font-weight: 600;
+}

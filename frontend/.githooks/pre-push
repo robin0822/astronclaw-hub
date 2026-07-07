@@ -1,0 +1,5 @@
+#!/bin/sh
+set -eu
+
+echo "Running frontend pre-push review checks..."
+npm --prefix frontend run review:ci

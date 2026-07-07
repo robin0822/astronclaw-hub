@@ -1,0 +1,239 @@
+/* ---------- split / dashboard ---------- */
+.split-layout {
+  display: flex;
+  gap: 20px;
+  align-items: flex-start;
+}
+.split-layout > * {
+  flex: 1;
+  min-width: 0;
+}
+
+.dashboard-grid {
+  display: grid;
+  gap: 20px;
+  grid-template-columns: 1.5fr 1fr 1fr;
+  margin-bottom: 20px;
+}
+
+.summary-metrics {
+  display: flex;
+  flex-direction: column;
+  gap: 12px;
+}
+.summary-metrics div {
+  display: flex;
+  justify-content: space-between;
+  gap: 16px;
+}
+.summary-metrics span {
+  color: var(--muted);
+}
+.summary-metrics strong {
+  text-align: right;
+}
+
+.success-box {
+  margin-top: 16px;
+  padding: 14px 16px;
+  border-radius: 14px;
+  font-weight: 600;
+  color: #1b7f45;
+  background: var(--success-soft);
+}
+
+.warning-box {
+  margin-top: 16px;
+  padding: 14px 16px;
+  border-radius: 14px;
+  font-weight: 600;
+  color: #c17a00;
+  background: var(--warning-soft);
+}
+
+.info-box {
+  margin-top: 16px;
+  padding: 14px 16px;
+  border-radius: 14px;
+  color: var(--text);
+  background: var(--bg-soft);
+  border: 1px solid var(--line);
+}
+
+/* ---------- charts (fake) ---------- */
+.fake-chart {
+  height: 220px;
+  border-radius: 18px;
+  background:
+    linear-gradient(180deg, rgba(36, 107, 255, 0.04) 0%, rgba(36, 107, 255, 0.01) 100%), repeating-linear-gradient(180deg, transparent 0 36px, rgba(226, 232, 240, 0.6) 36px 37px);
+  position: relative;
+  overflow: hidden;
+}
+
+.line-chart i {
+  position: absolute;
+  bottom: 24px;
+  width: 26px;
+  border-radius: 999px 999px 0 0;
+  background: linear-gradient(180deg, rgba(36, 107, 255, 0.35) 0%, rgba(36, 107, 255, 0.85) 100%);
+  transition: height 0.5s ease;
+}
+
+.metric-chart-wrap {
+  display: flex;
+  gap: 12px;
+  padding: 8px 0 0;
+}
+
+.chart-yaxis {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  padding: 12px 0;
+  font-size: 12px;
+  color: var(--muted);
+  min-width: 70px;
+  text-align: right;
+}
+
+.metric-line-chart {
+  flex: 1;
+  position: relative;
+}
+
+.chart-xaxis {
+  display: flex;
+  justify-content: space-between;
+  padding: 8px 0 0;
+  font-size: 12px;
+  color: var(--muted);
+}
+
+.chart-xaxis span {
+  flex: 1;
+  text-align: center;
+}
+
+.compact-chart-wrap {
+  display: flex;
+  gap: 8px;
+  padding: 8px 0;
+}
+
+.compact-yaxis {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  padding: 8px 0;
+  font-size: 11px;
+  color: var(--muted);
+  min-width: 50px;
+  text-align: right;
+}
+
+.compact-chart {
+  flex: 1;
+  position: relative;
+}
+
+.compact-xaxis {
+  display: flex;
+  justify-content: space-between;
+  padding: 4px 0 0;
+  font-size: 11px;
+  color: var(--muted);
+}
+
+.chart-with-axis {
+  display: flex;
+  flex-direction: row;
+  gap: 12px;
+  align-items: stretch;
+}
+
+.simple-yaxis {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  padding: 8px 0;
+  font-size: 11px;
+  color: var(--muted);
+  min-width: 48px;
+  text-align: right;
+  padding-right: 8px;
+}
+
+.simple-xaxis {
+  display: flex;
+  justify-content: space-between;
+  padding: 0 12px;
+  font-size: 12px;
+  color: var(--muted);
+  margin-top: -8px;
+}
+
+.ring-grid {
+  display: flex;
+  justify-content: space-around;
+  gap: 18px;
+  padding: 28px 0 8px;
+}
+.ring-item {
+  text-align: center;
+}
+
+.ring {
+  width: 82px;
+  height: 82px;
+  border-radius: 50%;
+  display: grid;
+  place-items: center;
+  margin: 0 auto 8px;
+  font-size: 22px;
+  font-weight: 700;
+  border: 8px solid;
+}
+
+.success-ring {
+  border-color: #98e3b6;
+  color: var(--success);
+}
+.warning-ring {
+  border-color: #ffd48a;
+  color: #c17a00;
+}
+.danger-ring {
+  border-color: #ffb7b7;
+  color: var(--danger);
+}
+.info-ring {
+  border-color: #a9c8ff;
+  color: var(--primary);
+}
+
+.rank-list {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+}
+.rank-list li {
+  padding: 14px 0;
+  border-bottom: 1px solid #eef3f8;
+}
+.rank-list li:last-child {
+  border-bottom: none;
+}
+.rank-list strong {
+  display: block;
+  margin-bottom: 6px;
+}
+.rank-list span {
+  color: var(--muted);
+  font-size: 13px;
+}
+
+hr {
+  border: none;
+  border-top: 1px solid var(--line);
+  margin: 18px 0;
+}

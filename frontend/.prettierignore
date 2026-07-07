@@ -1,0 +1,10 @@
+dist
+node_modules
+package-lock.json
+coverage
+*.log
+
+.env
+.env.*
+!.env.example
+.env.example

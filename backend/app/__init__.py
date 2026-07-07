@@ -1,0 +1,1 @@
+"""AstronClaw backend application."""

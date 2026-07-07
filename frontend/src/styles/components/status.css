@@ -1,0 +1,35 @@
+/* ---------- status tags ---------- */
+.status-tag {
+  display: inline-flex;
+  align-items: center;
+  padding: 4px 10px;
+  border-radius: 999px;
+  font-size: 12px;
+  font-weight: 700;
+  white-space: nowrap;
+}
+
+.status-tag.success {
+  color: var(--success);
+  background: var(--success-soft);
+}
+.status-tag.warning {
+  color: #c17a00;
+  background: var(--warning-soft);
+}
+.status-tag.danger {
+  color: var(--danger);
+  background: var(--danger-soft);
+}
+.status-tag.neutral {
+  color: #64748b;
+  background: #eef2f7;
+}
+.status-tag.info {
+  color: var(--primary);
+  background: var(--primary-soft);
+}
+.status-tag.purple {
+  color: var(--purple);
+  background: var(--purple-soft);
+}

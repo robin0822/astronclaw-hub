@@ -1,0 +1,14 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 64 64" role="img" aria-label="AstronClaw lobster">
+  <rect width="64" height="64" rx="16" fill="#fff4f0"/>
+  <path d="M22 14c-5-6-11-5-13 0 5 0 8 3 10 8" fill="none" stroke="#e7472f" stroke-width="4" stroke-linecap="round"/>
+  <path d="M42 14c5-6 11-5 13 0-5 0-8 3-10 8" fill="none" stroke="#e7472f" stroke-width="4" stroke-linecap="round"/>
+  <path d="M21 27c-6-4-11-3-14 2 5 3 10 2 15-1" fill="#ff745c" stroke="#d93625" stroke-width="3" stroke-linejoin="round"/>
+  <path d="M43 27c6-4 11-3 14 2-5 3-10 2-15-1" fill="#ff745c" stroke="#d93625" stroke-width="3" stroke-linejoin="round"/>
+  <path d="M24 23c0-7 16-7 16 0v16c0 7-16 7-16 0V23Z" fill="#f05252"/>
+  <path d="M24 35h16M25 42h14" stroke="#c92f22" stroke-width="2" stroke-linecap="round"/>
+  <path d="M28 49h8l-4 7-4-7Z" fill="#f05252"/>
+  <path d="M25 28h-8M39 28h8M24 34h-8M40 34h8M25 40h-7M39 40h7" stroke="#d93625" stroke-width="3" stroke-linecap="round"/>
+  <circle cx="28" cy="22" r="2" fill="#3b1f1b"/>
+  <circle cx="36" cy="22" r="2" fill="#3b1f1b"/>
+  <path d="M30 18c-1-4-3-7-7-9M34 18c1-4 3-7 7-9" stroke="#d93625" stroke-width="3" stroke-linecap="round"/>
+</svg>

@@ -1,0 +1,24 @@
+from dataclasses import dataclass
+from typing import Any
+
+
+@dataclass
+class BusinessError(Exception):
+    code: int
+    message: str
+    status_code: int = 400
+    data: Any = None
+
+
+INVALID_REQUEST = 400001
+UNAUTHORIZED = 401001
+ACCOUNT_LOCKED = 401002
+ACCOUNT_DISABLED = 401003
+PASSWORD_EXPIRED = 401004
+FORBIDDEN = 403001
+INVALID_STATE = 409001
+APPROVAL_REQUIRED = 409002
+QUOTA_EXCEEDED = 422001
+CLAW_PROXY_TIMEOUT = 502001
+SANDBOX_SESSION_EXPIRED = 502002
+BOT_DEPLOY_FAILED = 502003

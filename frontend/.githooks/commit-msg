@@ -1,0 +1,14 @@
+#!/bin/sh
+set -eu
+
+subject="$(head -n 1 "$1")"
+
+case "$subject" in
+  Merge*|Revert*) exit 0 ;;
+esac
+
+if ! printf '%s' "$subject" | grep -Eq '^(feat|fix|docs|style|refactor|test|chore|ci|build|perf|security)(\([a-zA-Z0-9._-]+\))?: .{8,}$'; then
+  echo "Commit message must follow Conventional Commits, for example:"
+  echo "  fix(auth): protect admin routes"
+  exit 1
+fi

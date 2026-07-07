@@ -1,0 +1,53 @@
+/* ---------- forms ---------- */
+.form-grid {
+  display: grid;
+  gap: 16px;
+}
+.form-grid .full {
+  grid-column: 1 / -1;
+}
+
+.form-grid label {
+  display: flex;
+  flex-direction: column;
+  gap: 8px;
+  color: #334155;
+  font-weight: 600;
+  font-size: 14px;
+}
+
+.form-card h3,
+.summary-card h3,
+.chart-card h3 {
+  margin-top: 0;
+}
+
+.selector-list {
+  display: grid;
+  grid-template-columns: repeat(2, minmax(0, 1fr));
+  gap: 14px;
+}
+
+.selector-item,
+.switch-row {
+  display: flex;
+  padding: 13px 16px;
+  border: 1px solid var(--line);
+  border-radius: 14px;
+  background: #fbfdff;
+  gap: 10px;
+  align-items: center;
+  font-weight: 600;
+  font-size: 14px;
+}
+
+.selector-item input,
+.switch-row input {
+  width: auto;
+}
+
+.inline-note {
+  margin-top: 14px;
+  color: var(--muted);
+  font-size: 13px;
+}
