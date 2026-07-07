@@ -1,0 +1,9 @@
+#!/bin/sh
+set -eu
+
+repo_root="$(git rev-parse --show-toplevel)"
+cd "$repo_root"
+
+if [ -x frontend/.githooks/commit-msg ]; then
+  exec frontend/.githooks/commit-msg "$@"
+fi

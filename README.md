@@ -21,3 +21,21 @@
 实现、验收、结项逐步更新。
 
 项目记忆用于记录单个需求的过程事实；长期知识只接收结项后确认有复用价值的内容。
+
+## 实现阶段质量门禁
+
+本仓库已按 Agent 实现阶段流程加入根级 `pre-push` 硬门禁：
+
+- `.githooks/pre-push`：push 前自动触发。
+- `scripts/quality-gate.sh`：统一质量门禁入口。
+- `scripts/diff-to-test-map.cjs`：检查生产代码变更是否有具体测试锚点。
+- `scripts/agent-code-review.cjs`：执行 Agent 内部结构化 review。
+- `quality/test-map.json`：维护稳定的生产代码到测试锚点映射。
+
+首次使用时执行：
+
+```bash
+scripts/install-git-hooks.sh
+```
+
+详细说明见 `docs/wiki/implementation-quality-gate.md`。

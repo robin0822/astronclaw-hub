@@ -27,7 +27,8 @@ description: 用于 CR/PR 协同和评论处理，适用于记录评审链接、
 3. 判断评论类型：需求语义、方案设计、代码实现、测试、风险。
 4. 对需求或方案变更，回到对应文档更新并重新确认。
 5. 对代码评论，修改代码、补测试、提交变更。
-6. 在 `cr-comments.md` 记录处理结果、提交和剩余问题。
+6. 对完整待 push diff 执行 `scripts/agent-code-review.cjs`，把 actionable 问题视为内部 CR 评论处理。
+7. 在 `cr-comments.md` 记录处理结果、提交和剩余问题。
 
 ## 输出要求
 
@@ -46,4 +47,4 @@ description: 用于 CR/PR 协同和评论处理，适用于记录评审链接、
 - 所有阻塞评论已处理或明确延期。
 - 需求范围变化已回写 `requirements.md` 或 `plan.md`。
 - 处理结果有提交或文档链接可追踪。
-
+- 内部结构化 review 已通过，且 pre-push quality gate 未失败。

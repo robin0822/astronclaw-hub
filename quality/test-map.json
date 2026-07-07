@@ -1,0 +1,28 @@
+{
+  "backend/app/api/v1/routes.py": [
+    "backend/tests/api/test_core_api.py"
+  ],
+  "backend/app/clients/claw_proxy_base.py": [
+    "backend/tests/unit/test_claw_proxy_client.py"
+  ],
+  "backend/app/models.py": [
+    "backend/tests/unit/test_schema_contract.py"
+  ],
+  "backend/app/services/audit_integrity.py": [
+    "backend/tests/unit/test_audit_contract.py"
+  ],
+  "frontend/src/api/request.ts": [
+    "frontend/src/api/__tests__/request.test.ts",
+    "frontend/e2e/api-contract.spec.ts"
+  ],
+  "frontend/src/components/Select.tsx": [
+    "frontend/src/components/__tests__/Select.test.tsx"
+  ],
+  "frontend/src/pages/LoginPage.tsx": [
+    "frontend/src/pages/__tests__/LoginPage.test.tsx",
+    "frontend/e2e/login.spec.ts"
+  ],
+  "frontend/src/routes/app-routes.tsx": [
+    "frontend/e2e/ui-smoke.spec.ts"
+  ]
+}

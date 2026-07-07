@@ -1,0 +1,23 @@
+#!/bin/sh
+set -eu
+
+repo_root="$(git rev-parse --show-toplevel)"
+cd "$repo_root"
+
+if git diff --cached --quiet -- \
+  frontend/src \
+  frontend/e2e \
+  frontend/package.json \
+  frontend/package-lock.json \
+  frontend/vite.config.ts \
+  frontend/tsconfig.json \
+  frontend/tsconfig.app.json \
+  frontend/tsconfig.node.json \
+  frontend/playwright.config.ts \
+  frontend/.oxlintrc.json \
+  frontend/.prettierrc.json; then
+  exit 0
+fi
+
+echo "Running frontend pre-commit review checks..."
+npm --prefix frontend run review:commit

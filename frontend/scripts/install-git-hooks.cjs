@@ -7,7 +7,7 @@ function run(command, args, options = {}) {
 }
 
 const repoRoot = run('git', ['rev-parse', '--show-toplevel']);
-const hooksPath = 'frontend/.githooks';
+const hooksPath = '.githooks';
 const absoluteHooksPath = join(repoRoot, hooksPath);
 
 if (!existsSync(absoluteHooksPath)) {
